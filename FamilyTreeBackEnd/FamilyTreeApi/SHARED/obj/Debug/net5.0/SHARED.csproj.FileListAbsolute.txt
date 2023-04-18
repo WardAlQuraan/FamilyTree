@@ -1,0 +1,15 @@
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\SHARED.deps.json
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\SHARED.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\ref\SHARED.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\SHARED.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\ENTITIES.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\ENTITIES.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.csproj.AssemblyReference.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.AssemblyInfoInputs.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.AssemblyInfo.cs
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.csproj.CoreCompileInputs.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.csproj.CopyComplete
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\ref\SHARED.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.pdb

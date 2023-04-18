@@ -1,0 +1,98 @@
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\appsettings.json
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.exe
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.deps.json
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.runtimeconfig.json
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.runtimeconfig.dev.json
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.dll
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\ref\FamilyTreeApi.dll
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.pdb
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.csproj.AssemblyReference.cache
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.AssemblyInfoInputs.cache
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.AssemblyInfo.cs
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.csproj.CoreCompileInputs.cache
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\staticwebassets\FamilyTreeApi.StaticWebAssets.Manifest.cache
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\staticwebassets\FamilyTreeApi.StaticWebAssets.xml
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\scopedcss\bundle\FamilyTreeApi.styles.css
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.RazorTargetAssemblyInfo.cache
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.csproj.CopyComplete
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.dll
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\ref\FamilyTreeApi.dll
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.pdb
+C:\Users\ward\source\repos\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.genruntimeconfig.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\appsettings.json
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.exe
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.deps.json
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.runtimeconfig.json
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.runtimeconfig.dev.json
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\ref\FamilyTreeApi.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\FamilyTreeApi.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\DATA_LAYER.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\ENTITIES.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\DATA_LAYER.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\ENTITIES.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.csproj.AssemblyReference.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.AssemblyInfoInputs.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.AssemblyInfo.cs
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.csproj.CoreCompileInputs.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\staticwebassets\FamilyTreeApi.StaticWebAssets.Manifest.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\staticwebassets\FamilyTreeApi.StaticWebAssets.xml
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\scopedcss\bundle\FamilyTreeApi.styles.css
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.RazorTargetAssemblyInfo.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.csproj.CopyComplete
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\ref\FamilyTreeApi.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.genruntimeconfig.cache
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\REPOSITORIES.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\REPOSITORIES.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\SHARED.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\SHARED.pdb
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.MvcApplicationPartsAssemblyInfo.cs
