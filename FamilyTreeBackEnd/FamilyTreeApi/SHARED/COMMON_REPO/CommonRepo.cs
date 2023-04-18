@@ -19,15 +19,17 @@ namespace SHARED.COMMON_REPO
             entities = context.Set<T>();
         }
 
-        public async Task<List<T>> GetAllAsync()
+        public virtual async Task<List<T>> GetAllAsync()
         {
-            return await entities.Where(x=>x.IsDeleted==0).ToListAsync();
+            var items = await entities.Where(x=>x.IsDeleted==0).ToListAsync();
+            return items;
+
         }
-        public async Task<T> GetAsync(int id)
+        public virtual async Task<T> GetAsync(int id)
         {
             return await entities.SingleOrDefaultAsync(s => s.Id == id && s.IsDeleted==0);
         }
-        public async Task<int> InsertAsync(T entity)
+        public virtual async Task<int> InsertAsync(T entity)
         {
             if (entity == null)
             {
@@ -40,7 +42,7 @@ namespace SHARED.COMMON_REPO
             await context.SaveChangesAsync();
             return entity.Id;
         }
-        public async Task<T> UpdateAsync(T entity)
+        public virtual async Task<T> UpdateAsync(T entity)
         {
             if (entity == null)
             {
@@ -53,7 +55,7 @@ namespace SHARED.COMMON_REPO
             await context.SaveChangesAsync();
             return entity;
         }
-        public async Task<bool> DeleteAsync(int id)
+        public virtual async Task<bool> DeleteAsync(int id)
         {
             var entity = await GetAsync(id);
             if (entity == null)

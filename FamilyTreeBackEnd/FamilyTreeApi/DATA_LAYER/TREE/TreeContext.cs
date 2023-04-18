@@ -10,7 +10,7 @@ namespace DATA_LAYER.TREE
 {
     public class TreeContext:DbContext
     {
-        public TreeContext(DbContextOptions options) : base(options) { }
+        public TreeContext(DbContextOptions<TreeContext> options) : base(options) { }
 
         public DbSet<Family> Family { get; set; }
         public DbSet<Tree> Tree { get; set; }

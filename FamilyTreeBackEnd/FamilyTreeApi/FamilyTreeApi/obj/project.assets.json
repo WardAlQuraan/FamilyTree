@@ -1998,6 +1998,20 @@
           "bin/placeholder/REPOSITORIES.dll": {}
         }
       },
+      "SERVICES/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "REPOSITORIES": "1.0.0",
+          "SHARED": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SERVICES.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SERVICES.dll": {}
+        }
+      },
       "SHARED/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6854,6 +6868,11 @@
       "path": "../REPOSITORIES/REPOSITORIES.csproj",
       "msbuildProject": "../REPOSITORIES/REPOSITORIES.csproj"
     },
+    "SERVICES/1.0.0": {
+      "type": "project",
+      "path": "../SERVICES/SERVICES.csproj",
+      "msbuildProject": "../SERVICES/SERVICES.csproj"
+    },
     "SHARED/1.0.0": {
       "type": "project",
       "path": "../SHARED/SHARED.csproj",
@@ -6868,6 +6887,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
       "REPOSITORIES >= 1.0.0",
+      "SERVICES >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -6908,6 +6928,9 @@
             },
             "C:\\Users\\ward\\Desktop\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj": {
               "projectPath": "C:\\Users\\ward\\Desktop\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj"
+            },
+            "C:\\Users\\ward\\Desktop\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj": {
+              "projectPath": "C:\\Users\\ward\\Desktop\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj"
             }
           }
         }

@@ -8,6 +8,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using REPOSITORIES.FAMILY_REPO;
+using REPOSITORIES.ROLE_REPO;
+using REPOSITORIES.TREE_REPO;
+using REPOSITORIES.USER_REPO;
+using SERVICES.FAMILY_SERVICE;
+using SERVICES.ROLE_SERVICE;
+using SERVICES.TREE_SERVICE;
+using SERVICES.URES_SERVICE;
 using SHARED.COMMON_REPO;
 
 namespace FamilyTreeApi
@@ -34,8 +41,32 @@ namespace FamilyTreeApi
             services.AddDbContext<CoreContext>(option => option.UseSqlServer(Configuration.GetConnectionString("CoreConnection")));
             services.AddDbContext<TreeContext>(option => option.UseSqlServer(Configuration.GetConnectionString("TreeConnection")));
 
-            services.AddScoped(typeof(ICommonRepo<>), typeof(CommonRepo<>));
+            #region Reposiories Injection
+
+            #region Tree Database
             services.AddScoped<IFamilyRepo, FamilyRepo>();
+            services.AddScoped<ITreeRepo, TreeRepo>();
+            #endregion
+
+            #region Core Database
+            services.AddScoped<IUserRepo, UserRepo>();
+            services.AddScoped<IRoleRepo, RoleRepo>();
+            #endregion
+
+            #endregion
+
+            #region Services Injection
+            #region Tree DataBase
+            services.AddScoped<ITreeSevice, TreeService>();
+            services.AddScoped<IFamilyService, FamilyService>();
+            #endregion
+
+            #region Core DataBase
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IRoleService, RoleService>();
+            #endregion
+            #endregion
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

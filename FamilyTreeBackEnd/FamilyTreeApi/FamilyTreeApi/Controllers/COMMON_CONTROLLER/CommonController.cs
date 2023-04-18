@@ -1,6 +1,7 @@
 ﻿using ENTITIES.BASE_ENTITY;
 using Microsoft.AspNetCore.Mvc;
 using SHARED.COMMON_REPO;
+using SHARED.COMMON_SERVICES;
 using System.Threading.Tasks;
 
 namespace FamilyTreeApi.Controllers.COMMON_CONTROLLER
@@ -9,41 +10,41 @@ namespace FamilyTreeApi.Controllers.COMMON_CONTROLLER
     [ApiController]
     public class CommonController<T> : ControllerBase where T:BaseEntity
     {
-        private readonly ICommonRepo<T> _repo;
+        private readonly ICommonService<T> _service;
 
-        public CommonController(ICommonRepo<T> repo)
+        public CommonController(ICommonService<T> service)
         {
-            _repo = repo;
+            _service = service;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            return Ok(await _repo.GetAllAsync());
+            return Ok(await _service.GetAllAsync());
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            return Ok(await _repo.GetAsync(id));
+            return Ok(await _service.GetAsync(id));
         }
 
         [HttpPost]
         public async Task<IActionResult> Post(T item)
         {
-            return StatusCode(201, await _repo.InsertAsync(item));
+            return StatusCode(201, await _service.InsertAsync(item));
         }
 
         [HttpPut]
         public async Task<IActionResult> Put(T item)
         {
-            return StatusCode(202, await _repo.UpdateAsync(item));
+            return StatusCode(202, await _service.UpdateAsync(item));
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            return StatusCode(204, await _repo.DeleteAsync(id));
+            return StatusCode(204, await _service.DeleteAsync(id));
         }
     }
 }

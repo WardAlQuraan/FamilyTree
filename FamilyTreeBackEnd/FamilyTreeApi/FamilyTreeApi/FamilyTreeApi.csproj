@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DATA_LAYER\DATA_LAYER.csproj" />
     <ProjectReference Include="..\REPOSITORIES\REPOSITORIES.csproj" />
+    <ProjectReference Include="..\SERVICES\SERVICES.csproj" />
   </ItemGroup>
 
 </Project>

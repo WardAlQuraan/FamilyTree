@@ -39,6 +39,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0",
           "REPOSITORIES": "1.0.0",
+          "SERVICES": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
@@ -1592,6 +1593,18 @@
         },
         "compile": {
           "REPOSITORIES.dll": {}
+        }
+      },
+      "SERVICES/1.0.0": {
+        "dependencies": {
+          "REPOSITORIES": "1.0.0",
+          "SHARED": "1.0.0"
+        },
+        "runtime": {
+          "SERVICES.dll": {}
+        },
+        "compile": {
+          "SERVICES.dll": {}
         }
       },
       "SHARED/1.0.0": {
@@ -4227,6 +4240,11 @@
       "sha512": ""
     },
     "REPOSITORIES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SERVICES/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

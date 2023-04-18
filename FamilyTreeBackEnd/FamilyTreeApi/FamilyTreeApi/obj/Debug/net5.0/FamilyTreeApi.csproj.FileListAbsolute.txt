@@ -96,3 +96,5 @@ C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\
 C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\SHARED.dll
 C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\SHARED.pdb
 C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\obj\Debug\net5.0\FamilyTreeApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\SERVICES.dll
+C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\SERVICES.pdb

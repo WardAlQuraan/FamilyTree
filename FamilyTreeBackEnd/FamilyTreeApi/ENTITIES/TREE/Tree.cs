@@ -1,5 +1,6 @@
 ﻿using ENTITIES.BASE_ENTITY;
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ENTITIES.TREE
@@ -12,6 +13,8 @@ namespace ENTITIES.TREE
         // Foriegn key to Tree
         [Column("PARENT_ID")]
         public int? ParentId { get; set; }
+        [Required]
+        public string Name { get; set; }
         [Column("WIFE_NAME")]
         public string WifeName { get; set; }
         [Column("BIRTH_DATE")]

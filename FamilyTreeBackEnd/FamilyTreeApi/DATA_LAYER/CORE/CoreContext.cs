@@ -10,9 +10,9 @@ namespace DATA_LAYER.CORE
 {
     public class CoreContext:DbContext
     {
-        public CoreContext(DbContextOptions options) : base(options) { }
+        public CoreContext(DbContextOptions<CoreContext> options) : base(options) { }
         
-        public DbSet<User> Users { get; set; }
-        public DbSet<Role> Roles { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<Role> Role { get; set; }
     }
 }
