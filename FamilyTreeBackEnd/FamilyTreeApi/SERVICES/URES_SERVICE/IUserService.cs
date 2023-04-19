@@ -10,5 +10,6 @@ namespace SERVICES.URES_SERVICE
 {
     public interface IUserService : ICommonService<User>
     {
+        Task<string> Login(string email, string password);
     }
 }

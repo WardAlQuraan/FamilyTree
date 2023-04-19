@@ -17,27 +17,27 @@ namespace SHARED.COMMON_SERVICES
             _repo = repo;
         }
 
-        public async Task<bool> DeleteAsync(int id)
+        public virtual async Task<bool> DeleteAsync(int id)
         {
             return await _repo.DeleteAsync(id);
         }
 
-        public async Task<List<T>> GetAllAsync()
+        public virtual async Task<List<T>> GetAllAsync()
         {
             return await _repo.GetAllAsync();
         }
 
-        public async Task<T> GetAsync(int id)
+        public virtual async Task<T> GetAsync(int id)
         {
             return await _repo.GetAsync(id);
         }
 
-        public async Task<int> InsertAsync(T entity)
+        public virtual async Task<int> InsertAsync(T entity)
         {
             return await _repo.InsertAsync(entity);
         }
 
-        public async Task<T> UpdateAsync(T entity)
+        public virtual async Task<T> UpdateAsync(T entity)
         {
             return await _repo.UpdateAsync(entity);
         }

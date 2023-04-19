@@ -14,8 +14,22 @@ namespace FamilyTreeApi.Controllers
 
     public class TreeController : CommonController<Tree>
     {
+        private readonly ITreeSevice sevice;
         public TreeController(ITreeSevice service) : base(service)
         {
+            this.sevice = service;
         }
+
+        [HttpGet(nameof(GetSmallFamily)+"{parentId}")]
+        public async Task<IActionResult> GetSmallFamily(int parentId)
+        {
+            return Ok(await sevice.GetSmallFamily(parentId));
+        }
+        [HttpGet(nameof(GetFirstFamily)+"{familyId}")]
+        public async Task<IActionResult> GetFirstFamily(int familyId)
+        {
+            return Ok(await sevice.GetFirstFamily(familyId));
+        }
+
     }
 }

@@ -25,6 +25,13 @@ namespace SHARED.COMMON_REPO
             return items;
 
         }
+        public virtual async Task<bool> CheckExist(int id) 
+        {
+            var item = await GetAsync(id);
+            if (item == null)
+                return false;
+            return true;
+        }
         public virtual async Task<T> GetAsync(int id)
         {
             return await entities.SingleOrDefaultAsync(s => s.Id == id && s.IsDeleted==0);

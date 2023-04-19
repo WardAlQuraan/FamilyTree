@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyTreeApi", "FamilyTreeApi\FamilyTreeApi.csproj", "{22D65FCD-0908-4B00-924B-49A2A380AF6C}"
 EndProject
@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "REPOSITORIES", "REPOSITORIE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHARED", "SHARED\SHARED.csproj", "{C7ADCC75-9517-424D-9DA0-FB2129D7B7D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SERVICES", "SERVICES\SERVICES.csproj", "{4D2D04BE-EF14-425A-8FB9-E76C408404EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SERVICES", "SERVICES\SERVICES.csproj", "{4D2D04BE-EF14-425A-8FB9-E76C408404EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOs", "DTOs\DTOs.csproj", "{F5B3EC03-1B5C-4548-B518-704C5FE1154C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4D2D04BE-EF14-425A-8FB9-E76C408404EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D2D04BE-EF14-425A-8FB9-E76C408404EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D2D04BE-EF14-425A-8FB9-E76C408404EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B3EC03-1B5C-4548-B518-704C5FE1154C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B3EC03-1B5C-4548-B518-704C5FE1154C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B3EC03-1B5C-4548-B518-704C5FE1154C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B3EC03-1B5C-4548-B518-704C5FE1154C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

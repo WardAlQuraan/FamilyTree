@@ -1,0 +1,15 @@
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\DTOs.deps.json
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\DTOs.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\DTOs.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\ENTITIES.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\ENTITIES.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.AssemblyInfo.cs
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.csproj.CopyComplete
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\refint\DTOs.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\ref\DTOs.dll

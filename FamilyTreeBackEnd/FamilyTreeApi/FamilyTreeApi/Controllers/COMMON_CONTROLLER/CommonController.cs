@@ -18,31 +18,31 @@ namespace FamilyTreeApi.Controllers.COMMON_CONTROLLER
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public virtual async Task<IActionResult> GetAll()
         {
             return Ok(await _service.GetAllAsync());
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public virtual async Task<IActionResult> Get(int id)
         {
             return Ok(await _service.GetAsync(id));
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(T item)
+        public virtual async Task<IActionResult> Post(T item)
         {
             return StatusCode(201, await _service.InsertAsync(item));
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put(T item)
+        public virtual async Task<IActionResult> Put(T item)
         {
             return StatusCode(202, await _service.UpdateAsync(item));
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public virtual async Task<IActionResult> Delete(int id)
         {
             return StatusCode(204, await _service.DeleteAsync(id));
         }
