@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OYH4zKUYIUX1Cjb8+WBhYD3n/Xrh7mkj24QZDB/8d0r+j9iPIocAeOXUpqyzfmGabldVPBSKqjihDz1xIoPBsA==",
+  "dgSpecHash": "jiOoaOAFLdPnTVKrf8wPe7dlt3mVHYzrn2sbLvEWAFEEJRzPFlcwdI+4Y/XK+XVTcQNaKQmdQWurncPRH9fUDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ward\\Desktop\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj",
+  "projectFilePath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ward\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ward\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
