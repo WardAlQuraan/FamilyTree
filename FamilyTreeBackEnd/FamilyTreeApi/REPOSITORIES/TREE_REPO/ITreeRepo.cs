@@ -10,5 +10,6 @@ namespace REPOSITORIES.TREE_REPO
         Task<List<Tree>> GetByFamilyId(int familyId);
         Task<List<Tree>> GetChildrens(int parentId);
         Task<Tree> GetParentByFamilyId(int familyId);
+
     }
 }
