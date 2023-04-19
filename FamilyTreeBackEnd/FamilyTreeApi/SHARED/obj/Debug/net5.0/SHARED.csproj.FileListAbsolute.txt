@@ -28,3 +28,18 @@ C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.cs
 C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.dll
 C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\ref\SHARED.dll
 C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\SHARED.deps.json
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\SHARED.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\SHARED.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\ENTITIES.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\ENTITIES.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.AssemblyInfo.cs
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.csproj.CopyComplete
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\refint\SHARED.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\ref\SHARED.dll

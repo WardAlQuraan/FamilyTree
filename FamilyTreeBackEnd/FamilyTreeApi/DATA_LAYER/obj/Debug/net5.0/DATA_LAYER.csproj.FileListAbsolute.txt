@@ -34,3 +34,21 @@ C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_
 C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\ref\DATA_LAYER.dll
 C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.pdb
 C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.genruntimeconfig.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\bin\Debug\net5.0\DATA_LAYER.deps.json
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\bin\Debug\net5.0\DATA_LAYER.runtimeconfig.json
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\bin\Debug\net5.0\DATA_LAYER.runtimeconfig.dev.json
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\bin\Debug\net5.0\DATA_LAYER.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\bin\Debug\net5.0\DATA_LAYER.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\bin\Debug\net5.0\ENTITIES.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\bin\Debug\net5.0\ENTITIES.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.AssemblyInfo.cs
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.csproj.CopyComplete
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\refint\DATA_LAYER.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\DATA_LAYER.genruntimeconfig.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DATA_LAYER\obj\Debug\net5.0\ref\DATA_LAYER.dll

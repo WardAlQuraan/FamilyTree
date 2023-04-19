@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\FamilyTreeApi.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\FamilyTreeApi.csproj": {}
   },
   "projects": {
-    "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj",
         "projectName": "DATA_LAYER",
-        "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj",
-        "packagesPath": "C:\\Users\\ward\\.nuget\\packages\\",
-        "outputPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ward\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
               }
             }
           }
@@ -75,7 +72,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -84,25 +82,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj",
-        "projectName": "ENTITIES",
-        "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj",
-        "packagesPath": "C:\\Users\\ward\\.nuget\\packages\\",
-        "outputPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\obj\\",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ward\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,6 +104,67 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj",
+        "projectName": "ENTITIES",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -133,7 +188,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -142,25 +198,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\FamilyTreeApi.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\FamilyTreeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\FamilyTreeApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\FamilyTreeApi.csproj",
         "projectName": "FamilyTreeApi",
-        "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\FamilyTreeApi.csproj",
-        "packagesPath": "C:\\Users\\ward\\.nuget\\packages\\",
-        "outputPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\FamilyTreeApi.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\FamilyTreeApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ward\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,20 +220,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj"
               },
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj"
               },
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj"
               }
             }
           }
@@ -196,6 +249,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -227,7 +284,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -239,25 +297,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj",
         "projectName": "REPOSITORIES",
-        "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj",
-        "packagesPath": "C:\\Users\\ward\\.nuget\\packages\\",
-        "outputPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ward\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -265,20 +319,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DATA_LAYER\\DATA_LAYER.csproj"
               },
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
               },
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj"
               }
             }
           }
@@ -304,7 +359,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -313,25 +369,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj",
         "projectName": "SERVICES",
-        "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj",
-        "packagesPath": "C:\\Users\\ward\\.nuget\\packages\\",
-        "outputPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\SERVICES.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SERVICES\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ward\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -339,17 +391,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj"
               },
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\REPOSITORIES\\REPOSITORIES.csproj"
+              },
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj"
               }
             }
           }
@@ -363,13 +419,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -378,25 +441,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj",
         "projectName": "SHARED",
-        "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj",
-        "packagesPath": "C:\\Users\\ward\\.nuget\\packages\\",
-        "outputPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\SHARED.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\SHARED\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ward\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -404,14 +463,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
-                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
+              "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\FamilyTree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
               }
             }
           }
@@ -441,7 +501,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -450,7 +511,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

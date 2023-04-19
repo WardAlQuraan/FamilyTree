@@ -10,3 +10,15 @@ C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\D
 C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.dll
 C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ref\ENTITIES.dll
 C:\Users\ward\Desktop\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\bin\Debug\net5.0\ENTITIES.deps.json
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\bin\Debug\net5.0\ENTITIES.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\bin\Debug\net5.0\ENTITIES.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.AssemblyInfo.cs
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\refint\ENTITIES.dll
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.pdb
+C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ref\ENTITIES.dll
