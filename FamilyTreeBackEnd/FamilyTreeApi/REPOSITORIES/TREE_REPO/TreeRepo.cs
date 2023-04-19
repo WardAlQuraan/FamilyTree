@@ -16,6 +16,7 @@ namespace REPOSITORIES.TREE_REPO
             this.context = context;
         }
 
+
         public async Task<List<Tree>> GetByFamilyId(int familyId)
         {
             var family = await context.Tree.Where(x => x.FamilyId == familyId && x.IsDeleted==0).ToListAsync();
