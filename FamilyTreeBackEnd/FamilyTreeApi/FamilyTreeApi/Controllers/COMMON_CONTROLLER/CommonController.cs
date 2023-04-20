@@ -1,6 +1,5 @@
 ﻿using ENTITIES.BASE_ENTITY;
 using Microsoft.AspNetCore.Mvc;
-using SHARED.COMMON_REPO;
 using SHARED.COMMON_SERVICES;
 using System.Threading.Tasks;
 

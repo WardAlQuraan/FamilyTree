@@ -1,7 +1,9 @@
 ﻿using DATA_LAYER.CORE;
+using DTOs.USER;
 using ENTITIES.CORE;
 using Microsoft.EntityFrameworkCore;
 using SHARED.COMMON_REPO;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -19,6 +21,29 @@ namespace REPOSITORIES.USER_REPO
         {
             var user = await context.User.Where(x => x.Email == email && x.IsDeleted == 0).FirstOrDefaultAsync();
             return user;
+        }
+
+        public async Task<UserInfo> GetUser(int id)
+        {
+            var userInfo = await (
+                from u in context.User
+                join r in context.Role
+                on u.RoleId equals r.Id
+                where u.Id == id
+                select new UserInfo() { Id = u.Id, Email = u.Email, FirstName = u.FirstName, LastName = u.LastName, Role = r.RoleName }
+                ).FirstOrDefaultAsync();
+            return userInfo;
+        }
+
+        public async Task<List<UserInfo>> GetUsers()
+        {
+            var userInfo = await (
+                from u in context.User
+                join r in context.Role
+                on u.RoleId equals r.Id
+                select new UserInfo() {Id = u.Id,  Email = u.Email, FirstName = u.FirstName, LastName = u.LastName, Role = r.RoleName }
+                ).ToListAsync();
+            return userInfo;
         }
 
     }

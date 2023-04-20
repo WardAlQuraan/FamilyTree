@@ -250,3 +250,8 @@ C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTree
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\FamilyTreeApi\bin\Debug\net5.0\DTOs.pdb

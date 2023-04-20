@@ -1383,6 +1383,7 @@
       "REPOSITORIES/1.0.0": {
         "dependencies": {
           "DATA_LAYER": "1.0.0",
+          "DTOs": "1.0.0",
           "ENTITIES": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "SHARED": "1.0.0"

@@ -22,3 +22,15 @@ C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\o
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\refint\ENTITIES.dll
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.pdb
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ref\ENTITIES.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\bin\Debug\net5.0\ENTITIES.deps.json
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\bin\Debug\net5.0\ENTITIES.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\bin\Debug\net5.0\ref\ENTITIES.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\bin\Debug\net5.0\ENTITIES.pdb
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.csproj.AssemblyReference.cache
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.AssemblyInfoInputs.cache
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.AssemblyInfo.cs
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.csproj.CoreCompileInputs.cache
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ref\ENTITIES.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\ENTITIES\obj\Debug\net5.0\ENTITIES.pdb

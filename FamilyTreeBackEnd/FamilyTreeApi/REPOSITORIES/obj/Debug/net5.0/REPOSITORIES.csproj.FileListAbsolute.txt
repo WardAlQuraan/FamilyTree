@@ -55,3 +55,5 @@ C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\REPOSITORI
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\REPOSITORIES\obj\Debug\net5.0\refint\REPOSITORIES.dll
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\REPOSITORIES\obj\Debug\net5.0\REPOSITORIES.pdb
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\REPOSITORIES\obj\Debug\net5.0\ref\REPOSITORIES.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\REPOSITORIES\bin\Debug\net5.0\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\REPOSITORIES\bin\Debug\net5.0\DTOs.pdb

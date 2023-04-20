@@ -1,8 +1,13 @@
 ﻿using ENTITIES.CORE;
 using FamilyTreeApi.Controllers.COMMON_CONTROLLER;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SERVICES.URES_SERVICE;
+using SHARED.COMMON_SERVICES;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace FamilyTreeApi.Controllers
@@ -16,6 +21,7 @@ namespace FamilyTreeApi.Controllers
             this.service = service;
         }
         [AllowAnonymous]
+
         [HttpPost(nameof(Login))]
         public async Task<IActionResult> Login(string email, string password)
         {
@@ -26,26 +32,19 @@ namespace FamilyTreeApi.Controllers
         [Authorize(Roles = "ADMIN")]
         public override async Task<IActionResult> GetAll()
         {
-            return Ok(await service.GetUsers());
+            return await base.GetAll();
         }
-
-        public override async Task<IActionResult> Get(int id)
-        {
-            return Ok(await service.GetUser(id));
-        }
-
-        [Authorize(Roles = "ADMIN")]
+        //[Authorize(Roles = "ADMIN")]
+        [AllowAnonymous]
         public override async Task<IActionResult> Post(User item)
         {
             return await base.Post(item);
         }
-
         [Authorize(Roles = "ADMIN")]
         public override async Task<IActionResult> Delete(int id)
         {
             return await base.Delete(id);
         }
-
 
     }
 }

@@ -13,3 +13,18 @@ C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\D
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\refint\DTOs.dll
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.pdb
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\ref\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\DTOs.deps.json
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\ref\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\DTOs.pdb
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\ENTITIES.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\bin\Debug\net5.0\ENTITIES.pdb
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.csproj.AssemblyReference.cache
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.AssemblyInfoInputs.cache
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.AssemblyInfo.cs
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.csproj.CopyComplete
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\ref\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\DTOs\obj\Debug\net5.0\DTOs.pdb

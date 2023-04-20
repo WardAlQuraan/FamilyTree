@@ -63,3 +63,5 @@ C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SERVICES\o
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SERVICES\obj\Debug\net5.0\ref\SERVICES.dll
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SERVICES\bin\Debug\net5.0\DTOs.dll
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SERVICES\bin\Debug\net5.0\DTOs.pdb
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SERVICES\bin\Debug\net5.0\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SERVICES\bin\Debug\net5.0\DTOs.pdb

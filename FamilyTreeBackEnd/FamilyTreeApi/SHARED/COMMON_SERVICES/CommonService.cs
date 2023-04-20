@@ -1,9 +1,6 @@
 ﻿using ENTITIES.BASE_ENTITY;
 using SHARED.COMMON_REPO;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SHARED.COMMON_SERVICES

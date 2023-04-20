@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DATA_LAYER\DATA_LAYER.csproj" />
+    <ProjectReference Include="..\DTOs\DTOs.csproj" />
     <ProjectReference Include="..\ENTITIES\ENTITIES.csproj" />
     <ProjectReference Include="..\SHARED\SHARED.csproj" />
   </ItemGroup>
