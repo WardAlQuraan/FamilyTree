@@ -3,12 +3,15 @@ using FamilyTreeApi.Controllers.COMMON_CONTROLLER;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SERVICES.URES_SERVICE;
+using SHARED.CLAIM_HELPER;
+using System;
+using System.Collections.Generic;
+using System.Dynamic;
 using System.Threading.Tasks;
 
 namespace FamilyTreeApi.Controllers
 {
-    [Authorize]
-    public class UserController : CommonController<User>
+    public class UserController : AuthController<User>
     {
         private readonly IUserService service; 
         public UserController(IUserService service) : base(service)
@@ -20,7 +23,18 @@ namespace FamilyTreeApi.Controllers
         public async Task<IActionResult> Login(string email, string password)
         {
             var user = await service.Login(email, password);
-            return Ok(user);
+            if (!string.IsNullOrEmpty(user))
+            {
+                IDictionary<String, Object> claims = new ExpandoObject();
+                foreach(var claimProp in typeof(TreeClaims).GetProperties())
+                {
+                    var value = claimProp.GetValue(claimProp);
+                    if (value != null)
+                        claims.Add(claimProp.Name, value);
+                }
+                return Ok(claims);
+            }
+            return Unauthorized();
         }
 
         [Authorize(Roles = "ADMIN")]
@@ -38,6 +52,14 @@ namespace FamilyTreeApi.Controllers
         public override async Task<IActionResult> Post(User item)
         {
             return await base.Post(item);
+        }
+
+        public override async Task<IActionResult> Put(User item)
+        {
+
+            if (CheckSelfUser(item.Id))
+                return await base.Put(item);
+            return Unauthorized();
         }
 
         [Authorize(Roles = "ADMIN")]

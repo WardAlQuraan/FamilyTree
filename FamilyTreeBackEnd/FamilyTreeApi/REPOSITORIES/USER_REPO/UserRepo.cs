@@ -19,7 +19,7 @@ namespace REPOSITORIES.USER_REPO
 
         public async Task<User> GetByEmail(string email)
         {
-            var user = await context.User.Where(x => x.Email == email && x.IsDeleted == 0).FirstOrDefaultAsync();
+            var user = await context.User.Where(x => x.Email.ToLower() == email.ToLower() && x.IsDeleted == 0).FirstOrDefaultAsync();
             return user;
         }
 
@@ -29,7 +29,7 @@ namespace REPOSITORIES.USER_REPO
                 from u in context.User
                 join r in context.Role
                 on u.RoleId equals r.Id
-                where u.Id == id
+                where u.Id == id && u.IsDeleted == 0 && r.IsDeleted == 0
                 select new UserInfo() { Id = u.Id, Email = u.Email, FirstName = u.FirstName, LastName = u.LastName, Role = r.RoleName }
                 ).FirstOrDefaultAsync();
             return userInfo;
@@ -41,6 +41,7 @@ namespace REPOSITORIES.USER_REPO
                 from u in context.User
                 join r in context.Role
                 on u.RoleId equals r.Id
+                where u.IsDeleted == 0 && r.IsDeleted == 0
                 select new UserInfo() {Id = u.Id,  Email = u.Email, FirstName = u.FirstName, LastName = u.LastName, Role = r.RoleName }
                 ).ToListAsync();
             return userInfo;

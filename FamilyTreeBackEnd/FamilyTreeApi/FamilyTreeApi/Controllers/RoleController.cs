@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace FamilyTreeApi.Controllers
 {
-
+    [NonController]
     public class RoleController : CommonController<Role>
     {
         public RoleController(IRoleService service) : base(service)

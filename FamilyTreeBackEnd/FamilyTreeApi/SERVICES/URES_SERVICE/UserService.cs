@@ -12,6 +12,7 @@ using System.Security.Claims;
 using System.Text;
 using System.IdentityModel.Tokens.Jwt;
 using DTOs.USER;
+using SHARED.CLAIM_HELPER;
 
 namespace SERVICES.URES_SERVICE
 {
@@ -29,6 +30,7 @@ namespace SERVICES.URES_SERVICE
 
         public override async Task<int> InsertAsync(User user)
         {
+            user.Email = user.Email.ToLower();
             var checkByEmail = await repo.GetByEmail(user.Email);
             if (checkByEmail == null)
             {
@@ -46,6 +48,7 @@ namespace SERVICES.URES_SERVICE
         }
         public override async Task<User> UpdateAsync(User user)
         {
+            user.Email = user.Email.ToLower();
             user.Password = PasswordHasher.HashPassword(user.Password);
             return await base.UpdateAsync(user);
         }
@@ -80,8 +83,10 @@ namespace SERVICES.URES_SERVICE
         {
             var authClaims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Email, user.Email),
                     new Claim(ClaimTypes.Role, role),
+                    new Claim("Id", user.Id.ToString()),
+                    new Claim("Email", user.Email),
+                    new Claim("Role", role),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 };
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Key"]));
@@ -91,6 +96,12 @@ namespace SERVICES.URES_SERVICE
                 signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
                 );
             var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
+
+            TreeClaims.Email = user.Email;
+            TreeClaims.Role = role;
+            TreeClaims.UserId = user.Id;
+            TreeClaims.Token = tokenString;
+
             return tokenString;
         }
 
