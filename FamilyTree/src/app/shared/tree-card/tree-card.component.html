@@ -1,0 +1,11 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>{{person.name}}</mat-card-title>
+    <mat-card-subtitle>{{person.birthDate}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="'data:image/png;base64,' + person.imageName" alt="{{person.name}}">
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

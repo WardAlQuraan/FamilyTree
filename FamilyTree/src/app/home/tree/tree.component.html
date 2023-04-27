@@ -1,0 +1,12 @@
+<div *ngIf="tree">
+    <div class="container" >
+      <app-tree-card class="person" [person]="tree.parent"></app-tree-card>
+    </div>
+    <div class="container" *ngIf="tree.children" >
+      <div class="row">
+        <div class="col-md-6 person" *ngFor="let person of tree.children" >
+          <app-tree-card [person]="person"></app-tree-card>
+        </div>
+      </div>
+    </div>
+</div>

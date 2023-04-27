@@ -84,6 +84,8 @@ namespace FamilyTreeApi
             services.AddDbContext<CoreContext>(option => option.UseSqlServer(Configuration.GetConnectionString("CoreConnection")));
             services.AddDbContext<TreeContext>(option => option.UseSqlServer(Configuration.GetConnectionString("TreeConnection")));
 
+            services.AddCors();
+
             #region Reposiories Injection
 
             #region Tree Database
@@ -121,6 +123,11 @@ namespace FamilyTreeApi
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FamilyTreeApi v1"));
             }
+
+            app.UseCors(options => options
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

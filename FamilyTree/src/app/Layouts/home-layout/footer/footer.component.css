@@ -1,0 +1,21 @@
+/* تخطيط الفوتر */
+footer {
+  background-color: #292929;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}

@@ -1,4 +1,5 @@
-﻿using ENTITIES.CORE;
+﻿using DTOs.USER;
+using ENTITIES.CORE;
 using FamilyTreeApi.Controllers.COMMON_CONTROLLER;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -20,9 +21,9 @@ namespace FamilyTreeApi.Controllers
         }
         [AllowAnonymous]
         [HttpPost(nameof(Login))]
-        public async Task<IActionResult> Login(string email, string password)
+        public async Task<IActionResult> Login(LoginInfo loginInfo)
         {
-            var user = await service.Login(email, password);
+            var user = await service.Login(loginInfo.Email, loginInfo.Password);
             if (!string.IsNullOrEmpty(user))
             {
                 IDictionary<String, Object> claims = new ExpandoObject();

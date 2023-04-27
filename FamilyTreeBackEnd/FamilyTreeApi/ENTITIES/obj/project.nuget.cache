@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CC892fpiGxCW0UN606Wxii4QyLlyVXWauKQT+AnvaTCKKy9+wDl+oahMUzYet54zAG2/L6zh7VvPz05EQw1sfw==",
+  "dgSpecHash": "YA1A+oCa7tlO32Uww5/rA4B5xNGyyIBqiwt9VCjbODe75TNtUJ6lYQ6EzWsA9+CpmXuOPYS99cnKxha1cwZgJA==",
   "success": true,
   "projectFilePath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ward\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\ward\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\ward\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

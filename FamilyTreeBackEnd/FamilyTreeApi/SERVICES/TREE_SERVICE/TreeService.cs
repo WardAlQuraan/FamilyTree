@@ -30,6 +30,8 @@ namespace SERVICES.TREE_SERVICE
                 }
                 else
                 {
+                    if (!string.IsNullOrEmpty(entity.Parents))
+                        entity.Parents = null;
                     if(entity.ParentId == null)
                     {
                         throw new Exception("Can't add to this family without parent");

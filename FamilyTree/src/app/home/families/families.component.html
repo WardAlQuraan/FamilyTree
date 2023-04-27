@@ -1,0 +1,11 @@
+<div class="container" *ngIf="families" >
+  <div class="row">
+    <app-family-card class="col-md"  *ngFor="let family of families" [family]="family"></app-family-card>
+
+  </div>
+</div>
+
+<div class="container spinner" *ngIf="!families">
+  <mat-spinner ></mat-spinner>
+</div>
+

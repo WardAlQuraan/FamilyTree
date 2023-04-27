@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dgfPKeDfHMssRHs4BvoUfJ2Z7be4ASQ2lEHkf1VnI+nhkUk450pgoTUDFe1UdKEeST7jg4b0FCfoVb7Ef1QEbw==",
+  "dgSpecHash": "LU3PrPi5sVGP3PV550sTvphkL0BTQZV8QI2IXtRvaohu5yK6zXHYnuzrL8LQd9OYghhsg43SAA6XZKXtHnuZ3g==",
   "success": true,
   "projectFilePath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ward\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\ward\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\ward\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
