@@ -33,20 +33,33 @@ namespace FamilyTreeApi.Controllers
                     if (value != null)
                         claims.Add(claimProp.Name, value);
                 }
-                return Ok(claims);
+                return StatusMessage(200,"",claims);
             }
-            return Unauthorized();
+            return StatusMessage(401,"invalid email or password");
         }
 
         [Authorize(Roles = "ADMIN")]
         public override async Task<IActionResult> GetAll()
         {
-            return Ok(await service.GetUsers());
+            try
+            {
+                return StatusMessage(200,"",await service.GetUsers());
+            }catch(Exception ex)
+            {
+                return StatusMessage(ex);
+            }
         }
 
         public override async Task<IActionResult> Get(int id)
         {
-            return Ok(await service.GetUser(id));
+            try
+            {
+                return StatusMessage(200,"",await service.GetUser(id));
+
+            }catch(Exception ex)
+            {
+                return StatusMessage(ex);
+            }
         }
 
         [Authorize(Roles = "ADMIN")]
@@ -60,7 +73,7 @@ namespace FamilyTreeApi.Controllers
 
             if (CheckSelfUser(item.Id))
                 return await base.Put(item);
-            return Unauthorized();
+            return StatusMessage(401,"");
         }
 
         [Authorize(Roles = "ADMIN")]

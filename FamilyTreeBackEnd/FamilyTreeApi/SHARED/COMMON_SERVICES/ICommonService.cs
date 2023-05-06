@@ -14,5 +14,6 @@ namespace SHARED.COMMON_SERVICES
         Task<int> InsertAsync(T entity);
         Task<T> UpdateAsync(T entity);
         Task<bool> DeleteAsync(int id);
+        Task<bool> CheckExist(int id);
     }
 }

@@ -8,11 +8,9 @@ namespace SHARED.CLAIM_HELPER
 {
     public static class TreeClaims
     {
-        public static int UserId{ get; set; }
+        public static int UserId { get; set; }
         public static string Role { get; set; }
         public static string Email { get; set; }
         public static string Token { get; set; }
-
-
     }
 }

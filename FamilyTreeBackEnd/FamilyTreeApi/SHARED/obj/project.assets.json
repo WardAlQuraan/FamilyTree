@@ -1101,6 +1101,19 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ENTITIES": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTOs.dll": {}
+        }
+      },
       "ENTITIES/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -4106,6 +4119,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "DTOs/1.0.0": {
+      "type": "project",
+      "path": "../DTOs/DTOs.csproj",
+      "msbuildProject": "../DTOs/DTOs.csproj"
+    },
     "ENTITIES/1.0.0": {
       "type": "project",
       "path": "../ENTITIES/ENTITIES.csproj",
@@ -4114,6 +4132,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DTOs >= 1.0.0",
       "ENTITIES >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "Microsoft.EntityFrameworkCore >= 5.0.0"
@@ -4151,6 +4170,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj": {
+              "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj"
+            },
             "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
               "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
             }

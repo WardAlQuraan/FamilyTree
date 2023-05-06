@@ -1678,6 +1678,7 @@
       },
       "SHARED/1.0.0": {
         "dependencies": {
+          "DTOs": "1.0.0",
           "ENTITIES": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "5.0.0"

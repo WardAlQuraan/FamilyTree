@@ -43,3 +43,5 @@ C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\refint\SHARED.dll
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\SHARED.pdb
 C:\Users\user\Source\Repos\FamilyTree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\obj\Debug\net5.0\ref\SHARED.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\DTOs.dll
+C:\Family Tree\FamilyTreeBackEnd\FamilyTreeApi\SHARED\bin\Debug\net5.0\DTOs.pdb

@@ -1,14 +1,10 @@
 ﻿using ENTITIES.TREE;
 using FamilyTreeApi.Controllers.COMMON_CONTROLLER;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SERVICES.TREE_SERVICE;
-using SHARED.COMMON_SERVICES;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace FamilyTreeApi.Controllers
@@ -51,39 +47,52 @@ namespace FamilyTreeApi.Controllers
         [HttpGet(nameof(GetSmallFamily)+"/{parentId}")]
         public async Task<IActionResult> GetSmallFamily(int parentId)
         {
-            var tree = await sevice.GetSmallFamily(parentId);
-            if (!string.IsNullOrEmpty(tree.Parent.ImageName))
+            try
             {
-                
-                tree.Parent.ImageName = await GetImageUrl(tree.Parent.ImageName);
-            }
-
-            foreach(var child in tree.Children)
-            {
-                if (!string.IsNullOrEmpty(child.ImageName))
+                var tree = await sevice.GetSmallFamily(parentId);
+                if (!string.IsNullOrEmpty(tree.Parent.ImageName))
                 {
-                    child.ImageName = await GetImageUrl(child.ImageName);
+                
+                    tree.Parent.ImageName = await GetImageUrl(tree.Parent.ImageName);
                 }
+
+                foreach(var child in tree.Children)
+                {
+                    if (!string.IsNullOrEmpty(child.ImageName))
+                    {
+                        child.ImageName = await GetImageUrl(child.ImageName);
+                    }
+                }
+                return StatusMessage(200,"",tree);
+            }catch(Exception ex)
+            {
+                return StatusMessage(ex);
             }
-            return Ok(tree);
         }
         [HttpGet(nameof(GetFirstFamily)+"/{familyId}")]
         public async Task<IActionResult> GetFirstFamily(int familyId)
         {
-            var tree = await sevice.GetFirstFamily(familyId);
-            if (!string.IsNullOrEmpty(tree.Parent.ImageName))
+            try
             {
-                tree.Parent.ImageName = await GetImageUrl(tree.Parent.ImageName);
-            }
-
-            foreach (var child in tree.Children)
-            {
-                if (!string.IsNullOrEmpty(child.ImageName))
+                var tree = await sevice.GetFirstFamily(familyId);
+                if (!string.IsNullOrEmpty(tree.Parent.ImageName))
                 {
-                    child.ImageName = await GetImageUrl(child.ImageName);
+                    tree.Parent.ImageName = await GetImageUrl(tree.Parent.ImageName);
                 }
+
+                foreach (var child in tree.Children)
+                {
+                    if (!string.IsNullOrEmpty(child.ImageName))
+                    {
+                        child.ImageName = await GetImageUrl(child.ImageName);
+                    }
+                }
+                return StatusMessage(200,"",tree);
             }
-            return Ok(tree);
+            catch(Exception ex)
+            {
+                return StatusMessage(ex);
+            }
         }
 
         private async Task<string> GetImageUrl(string imageNamee)

@@ -1,4 +1,5 @@
-﻿using DTOs.TREE;
+﻿using DTOs.API_HELPERS;
+using DTOs.TREE;
 using ENTITIES.TREE;
 using REPOSITORIES.FAMILY_REPO;
 using REPOSITORIES.TREE_REPO;
@@ -72,7 +73,7 @@ namespace SERVICES.TREE_SERVICE
                 smallFamily.Children = await repo.GetChildrens(parentId);
                 return smallFamily;
             }
-            throw new Exception($"there is no small family with id = {parentId}");
+            throw new ResponseException(404,$"there is no small family with id = {parentId}");
         }
 
         public async Task<SmallFamily> GetFirstFamily(int familyId)
@@ -86,7 +87,7 @@ namespace SERVICES.TREE_SERVICE
                 smallFamily.Children = await repo.GetChildrens(parent.Id);
                 return smallFamily;
             }
-            throw new Exception($"There is no Family With Id = {familyId}");
+            throw new ResponseException(404,$"There is no Family With Id = {familyId}");
         }
     }
 }

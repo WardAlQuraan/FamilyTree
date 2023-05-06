@@ -1,4 +1,5 @@
-﻿using ENTITIES.BASE_ENTITY;
+﻿using DTOs.API_HELPERS;
+using ENTITIES.BASE_ENTITY;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -40,7 +41,7 @@ namespace SHARED.COMMON_REPO
         {
             if (entity == null)
             {
-                throw new ArgumentNullException("entity");
+                throw new ResponseException(400,"entity is null"); 
             }
             entity.CreationBy = "Admin";
             entity.CreationDate = DateTime.Now;
@@ -53,7 +54,7 @@ namespace SHARED.COMMON_REPO
         {
             if (entity == null)
             {
-                throw new ArgumentNullException("entity");
+                throw new ResponseException(400, "entity is null");
             }
             context.Entry<T>(entity).State = EntityState.Modified;
             entity.ModificationBy = "Admin";
@@ -67,7 +68,7 @@ namespace SHARED.COMMON_REPO
             var entity = await GetAsync(id);
             if (entity == null)
             {
-                throw new ArgumentNullException("entity");
+                throw new ResponseException(400, "entity is null");
             }
             entity.IsDeleted = 1;
             await UpdateAsync(entity);

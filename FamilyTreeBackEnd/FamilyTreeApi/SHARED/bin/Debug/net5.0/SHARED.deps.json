@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "SHARED/1.0.0": {
         "dependencies": {
+          "DTOs": "1.0.0",
           "ENTITIES": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "5.0.0"
@@ -807,6 +808,14 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "DTOs/1.0.0": {
+        "dependencies": {
+          "ENTITIES": "1.0.0"
+        },
+        "runtime": {
+          "DTOs.dll": {}
+        }
+      },
       "ENTITIES/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "5.0.17"
@@ -1375,6 +1384,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ENTITIES/1.0.0": {
       "type": "project",

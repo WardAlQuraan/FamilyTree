@@ -393,6 +393,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\DTOs\\DTOs.csproj"
+              },
               "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj": {
                 "projectPath": "C:\\Family Tree\\FamilyTreeBackEnd\\FamilyTreeApi\\ENTITIES\\ENTITIES.csproj"
               }

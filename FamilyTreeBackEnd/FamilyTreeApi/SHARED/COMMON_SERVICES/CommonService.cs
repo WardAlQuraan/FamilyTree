@@ -38,5 +38,10 @@ namespace SHARED.COMMON_SERVICES
         {
             return await _repo.UpdateAsync(entity);
         }
+
+        public virtual async Task<bool> CheckExist(int id)
+        {
+            return await _repo.CheckExist(id);
+        }
     }
 }
